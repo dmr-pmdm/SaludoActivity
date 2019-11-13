@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/chkDespedida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Despedida"/>
+
+    <TextView
+        android:id="@+id/txtElige"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elige tu despedida"
+        android:visibility="gone"/>
+
+    <RadioGroup
+        android:id="@+id/rgDespedida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/rbAdios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adiós"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbHastaluego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasta luego"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"/>
+
+
+</LinearLayout>

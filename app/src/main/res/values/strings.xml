@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SaludoActivity</string>
+    <string name="titulo_segunda_activity">Respondiendo...</string>
+</resources>
